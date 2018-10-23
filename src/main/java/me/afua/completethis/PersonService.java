@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 @Service
 public class PersonService {
-    ArrayList<Person> list;
+    private ArrayList<Person> list;
 
     public ArrayList<Person> getList() {
         return list;
