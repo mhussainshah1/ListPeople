@@ -7,13 +7,13 @@
 <body>
     <form th:action="@{/saveperson}"  th:object="${personObject}" method="post">
         First Name:
-        <input type="text" th:field="${personObject.firstName}">
+        <input type="text" th:field="${personObject.firstName}"><br/>
 
         Last Name:
-        <input type="text" th:field="*{lastName}">
+        <input type="text" th:field="*{lastName}"><br/>
 
         Email:
-        <input type="text" th:field="*{email}">
+        <input type="text" th:field="*{email}"><br/>
 
         <input type="submit" value="Submit">
     </form>
