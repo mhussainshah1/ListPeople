@@ -7,7 +7,6 @@
 <body>
     <a href="/addperson">Add a person</a>
     <h1>List of People</h1>
-
     <p th:each="eachPerson:${people}" th:text="${eachPerson.firstName}"></p>
 </body>
 </html>
