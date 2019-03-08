@@ -24,7 +24,6 @@ public class MainController {
         return "addperson";
     }
 
-
     @RequestMapping("/saveperson")
     public String savePerson(@ModelAttribute("personObject") Person toSave) {
         System.out.println(toSave);
